@@ -1,0 +1,92 @@
+.tariff {
+    background-color: #f1f1f1;
+    padding-bottom: 6.4em;
+
+    @media (max-width: 600px) {
+        padding-bottom: 2em;
+    }
+    &__pro {
+        margin: 0 2em;
+
+        @media (max-width: 600px) {
+            margin: 0 0.1em;
+        }
+    }
+}
+.tariff-plan {
+    display: inline-block;
+    width: 31.28%;
+    background-color: #f8f9fb;
+    margin-top: 10.2%;
+
+    @media (max-width: 1230px) {
+        width: 30%;
+    }
+    @media (max-width: 768px) {
+        width: 29%;
+    }
+    @media (max-width: 600px) {
+        margin-top: 5%;
+        width: 32%;
+        height: 6.25em;
+    }
+    &__subtitle {
+        background-color: #485460;
+        padding: 0.78em 0;
+        border: 0.063em solid #485460;
+        font: 1.6em OpenSans, Tahoma, sans-serif;
+        color: #fff;
+        
+        @media (max-width: 600px) {
+            padding: 0.438em;
+            border: 0.063em solid #ffffff;
+            font: 1em OpenSans, Tahoma, sans-serif;
+        }
+    }
+    &__price {
+        margin: 0 auto;
+        padding: 1em 0;
+        border: 0.063em solid #ecf0f1;
+        font: 1.25em OpenSans, Tahoma, sans-serif;
+        color: #485460;
+
+        @media (max-width: 600px) {
+            padding: 0;
+            font: 0.7em OpenSans, Tahoma, sans-serif;
+        }
+    }
+    &__item {
+        list-style-type: none;
+        padding: 0.86em 0;
+        background-color: #ffffff;
+        border: 0.063em solid #ecf0f1;
+        color: #8c9299;
+        letter-spacing: 0.006em;
+
+        @media (max-width: 600px) {
+            display: none;
+        }
+    }
+    &__button {
+        padding-top: 2.563em;
+        padding-bottom: 2.35em;
+
+        @media (max-width: 600px) {
+            padding-top: 0.625em;
+        }
+    }
+    &__btn {
+        text-decoration: none;
+        color: #ffffff;
+        font: 1.1em OpenSans_Semibold, Tahoma, sans-serif;
+        border: 0.063em solid #788492;
+        border-radius: 0.313em;
+        background-color: #788492;
+        padding: 0.438em 2.813em;
+
+        @media (max-width: 600px) {
+            font: 0.7em OpenSans_Semibold, Tahoma, sans-serif;
+            padding: 0.313em 0.625em;
+        }
+    }
+}
